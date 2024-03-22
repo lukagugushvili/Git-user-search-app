@@ -1,0 +1,67 @@
+@media (max-width: 635px) {
+  .wrapper {
+    height: auto;
+  }
+  .gitHub-user-search-app-wrapper {
+    padding: 5%;
+  }
+  #headerText {
+    font-size: 26px;
+  }
+  .user-name-box {
+    flex-direction: row;
+    align-items: center;
+    justify-content: normal;
+    gap: 40px;
+  }
+  .tablet-icon {
+    display: block;
+    width: 117px;
+    border-radius: 50%;
+  }
+  .tablet-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .user-img {
+    display: none;
+  }
+  .user-login {
+    flex-direction: column;
+  }
+  .contacts-box {
+    grid-template-columns: none;
+  }
+}
+
+@media (max-width: 473px) {
+  .wrapper {
+    height: auto;
+  }
+  .gitHub-user-search-app-wrapper {
+    padding: 5%;
+  }
+  h4 {
+    font-size: 13px;
+  }
+  #headerText {
+    font-size: 26px;
+  }
+  .search {
+    align-items: flex-end;
+    gap: 5px;
+  }
+  .user-login {
+    line-height: 23px;
+  }
+  .login h1 {
+    font-size: 16px;
+  }
+  .login h3 {
+    font-size: 13px;
+  }
+  .contacts-box {
+    grid-template-columns: none;
+  }
+}

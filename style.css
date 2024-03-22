@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* global styles */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Space Mono;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4b6a9b;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 730px;
+}
+
+/* wrapper styles */
+
+.wrapper {
+  height: 100vh;
+  background-color: #f6f8ff;
+}
+
+/* gitHub-user-search-app-wrapper */
+
+.gitHub-user-search-app-wrapper {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 21px;
+  color: #222731;
+}
+
+.mode-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: 2.5px;
+  color: #697c9a;
+}
+
+.mode-box:hover {
+  color: #222731;
+}
+
+#moon path:hover {
+  cursor: pointer;
+  fill: #222731;
+}
+
+#sun path:hover {
+  fill: #90a4d4;
+}
+
+/* search-content */
+
+.search-content {
+  padding: 1% 1% 1% 3%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px #4660bb33;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.search input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #222731;
+}
+
+.search input::placeholder {
+  font-size: 14px;
+  color: #4b6a9b;
+}
+
+.search-btn-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-btn-content p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #f74646;
+  display: none;
+}
+
+.search-btn-content button {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 13px 25px;
+  border-radius: 12px;
+  border: none;
+  color: #ffffff;
+  background-color: #0079ff;
+}
+
+.search-btn-content button:hover {
+  background-color: #60abff;
+}
+
+/* user data styles */
+
+.user-data {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 5%;
+  width: 100%;
+  border-radius: 12px;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px #4660bb33;
+}
+
+.user-img {
+  width: 117px;
+  display: block;
+}
+
+.user-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* user info styles */
+
+.user-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.user-name-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.tablet-icon {
+  display: none;
+}
+
+.user-login {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 38.51px;
+}
+
+.user-login h1 {
+  font-size: 26px;
+  color: #2b3442;
+}
+
+.user-login h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0079ff;
+}
+
+/* user-followers-box styles */
+
+.user-followers-box {
+  padding: 3%;
+  border-radius: 12px;
+  background-color: #f6f8ff;
+}
+
+.user-followers-box ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.user-followers-box li h4 {
+  font-size: 13px;
+  line-height: 19.25px;
+}
+
+.user-followers-box li p {
+  padding-top: 5px;
+  font-size: 22px;
+  color: #2b3442;
+}
+
+/* contacts styles */
+
+.contacts-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.boxes a:hover {
+  text-decoration: #4b6a9b underline;
+}

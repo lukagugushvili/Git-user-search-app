@@ -1,0 +1,40 @@
+.wrapper {
+  transition: background-color 0.5s ease, opacity 0.5s ease;
+}
+
+#sun {
+  display: none;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+#moon {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.inpGreenLine {
+  border: 2px solid #05ffb0;
+  transition: border 0.3s ease;
+}
+
+.inpRedLine {
+  border: 2px solid red;
+  transition: border 0.3s ease;
+}
